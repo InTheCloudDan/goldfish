@@ -36,6 +36,7 @@ echo 'Installing nodejs and npm...'
 sudo apt-get purge -y nodejs npm
 curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
 sudo apt-get install -y nodejs
+sudo npm install npm@latest -g
 echo Nodejs version:
 nodejs -v
 echo NPM version:
